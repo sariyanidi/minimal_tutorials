@@ -1,7 +1,6 @@
 README:
 ---------
-This is a minimal stand-alone piece of sofware that shows how to run C++ OpenCV code within python. 
-This solution is based mostly on the stackoverflow response of lightalchemist at https://stackoverflow.com/questions/12957492/writing-python-bindings-for-c-code-that-use-opencv and uses the following libraries (tested on my RHEL7.5): 
+This is a minimal stand-alone piece of sofware that shows how to run C++ OpenCV code within python for RHEL. This solution is based mostly on the stackoverflow response of lightalchemist at https://stackoverflow.com/questions/12957492/writing-python-bindings-for-c-code-that-use-opencv and uses the following libraries: 
 
 * Python 2.7
 * OpenCV 3.1.0
@@ -13,4 +12,5 @@ The steps are:
 
 2) Go to the makefile and replace the locations headers (i.e. *_INC) appropriately and compile file.
 
-3) Run toy.py with python2.7 (i.e., $ python2.7 toy.py). If you see processed.png all should be fine.
+3) Run toy.py with python2.7 (i.e., $ python2.7 toy.py). If you seegsu
+ processed.png all should be fine.
